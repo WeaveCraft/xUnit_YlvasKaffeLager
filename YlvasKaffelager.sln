@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YlvasKaffelager", "YlvasKaffelager\YlvasKaffelager.csproj", "{C71C5E08-8F95-41D9-8D2E-CC54F2C389D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "YlvasKaffelager.Tests", "Tests\YlvasKaffelager.Tests.csproj", "{DFA59DC5-2798-4488-B5EE-379701090120}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C71C5E08-8F95-41D9-8D2E-CC54F2C389D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C71C5E08-8F95-41D9-8D2E-CC54F2C389D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C71C5E08-8F95-41D9-8D2E-CC54F2C389D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C71C5E08-8F95-41D9-8D2E-CC54F2C389D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFA59DC5-2798-4488-B5EE-379701090120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFA59DC5-2798-4488-B5EE-379701090120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFA59DC5-2798-4488-B5EE-379701090120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFA59DC5-2798-4488-B5EE-379701090120}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51804815-0794-4BC9-BFEB-5C1ACA1FA3FE}
+	EndGlobalSection
+EndGlobal

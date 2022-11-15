@@ -1,0 +1,47 @@
+﻿@model YlvasKaffelager.ViewModels.OrderViewModel
+
+<div class="text-center">
+    <h1 class="display-4">Beställ</h1>
+     <h1 class="display-6">Vi ser fram emot din order.</h1>
+</div>
+
+<form asp-action="Orders" asp-controller="Orders" method="post">  
+  <div asp-validation-summary="ModelOnly" />
+    <div class="row">
+
+        <div class="col-md-6">          
+            <label>Förnamn:</label>
+            <input class="form-control" type="text" asp-for="FirstName" />
+                
+            <label>Efternamn</label>
+            <input class="form-control" type="text" asp-for="LastName" />
+               
+            <div>
+            <label>E-post</label>
+            <input class="form-control" type="email" asp-for="Email" />
+            <span asp-validation-for="Email" class="text-danger" />
+            </div>
+
+            <label>Produkt</label>
+            <select class="form-control" asp-for="CoffeeId" asp-items="@(new SelectList(Model.CoffeeItems, "Value", "Text"))">  
+                <option value="">---Välj---</option>  
+            </select>
+                
+            <label>Antal</label>
+            <input class="form-control" type="number" asp-for="Amount" />
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 mt-1">      
+                <input type="submit" name="btnSubmit" value="Beställ" class="btn btn-success" />  
+            </div>
+        </div>
+
+    </div>  
+  
+</form>
+
+@section Scripts
+{
+    <partial name="_ValidationScriptsPartial"/>
+}
