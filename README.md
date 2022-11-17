@@ -1,3 +1,1 @@
-YlvasKaffeLager
-
-"School Project with xUnit Tests and MoqTests."
+School Project with xUnit and Moq tests.
